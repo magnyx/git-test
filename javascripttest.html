@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demox"></p>
+    <p id="demoz"></p>
+    <p id="test"></p>
+
+    <script>
+    let x = 0.2 + 0.2;
+    let z = x ** 2;
+    let y = 4;
+    y += 4;
+    document.getElementById("demox").innerHTML = "X equals " + x;
+    document.getElementById("demoz").innerHTML = "Z equals " + z;
+    document.getElementById("test").innerHTML = y ;
+
+let finalResult;
+let evenOddResult;
+let a = 10;
+let b = 20;
+let c = 30;
+let d = 40;
+
+c = a + b;
+
+a = d - c;
+
+finalResult = c * a;
+
+if (finalResult%2 === 0) { 
+    evenOddResult = 0;
+} else { 
+    evenOddResult = 1;
+}
+
+section.innerHTML = ' ';
+const para1 = document.createElement('p');
+const finalResultCheck = finalResult === 48 ? `Yes, well done!` : `No, it is ${ finalResult }`;
+para1.textContent = `Is the finalResult 48? ${ finalResultCheck }`;
+const para2 = document.createElement('p');
+const evenOddResultCheck = evenOddResult === 0 ? 'The final result is even!' : 'The final result is odd. Hrm.';
+para2.textContent = evenOddResultCheck;
+
+section.appendChild(para1);
+section.appendChild(para2);
+
+    </script>
+    </script>
+
+</body>
+</html>
+
